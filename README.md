@@ -1,10 +1,10 @@
-# Hi there! 👋 I'm Pyae Sone
+# Hi there! I'm Pyae Sone
 
 I'm a **Computer Science student** and **Trailblazers Scholar** at the **Singapore University of Technology and Design (SUTD)**. With hands-on **ML engineering skills** and a unique background of **5 years in medical training**, I specialize in building and deploying neural networks from scratch using technologies like **NumPy, FastAPI, Docker, and Google Cloud Run**. 
 
 My experience spans applying machine learning to diverse fields such as **healthcare** (70K-patient cardiovascular study), **computer vision** (99.8% accuracy ASL interpreter), and **edge AI** (5G facial recognition). I am actively seeking **AI Engineer and SWE internship roles**.
 
-## 🚀 My Technical Expertise
+## My Technical Expertise
 
 | Category | Skills |
 | :------- | :----- |
@@ -13,11 +13,11 @@ My experience spans applying machine learning to diverse fields such as **health
 | **MLOps & Cloud** | Docker, Kubernetes (k3s), Google Cloud Run, Vertex AI, GCP, FastAPI, MLOps, CI/CD |
 | **Tools & Platforms** | Google Cloud Platform, Azure, CrowdStrike Falcon, Microsoft Sentinel, Git/GitHub |
 
-## 🌱 What I'm Currently Exploring
+## What I'm Currently Exploring
 
 I am continuously expanding my knowledge in areas such as **System Design** and advanced AI/ML techniques, always eager to learn and apply new concepts.
 
-## 💼 Featured Projects
+## Featured Projects
 
 Here are some of my key projects that demonstrate my capabilities:
 
@@ -26,7 +26,7 @@ Here are some of my key projects that demonstrate my capabilities:
 *   **5G & AIoT Real-Time Facial Recognition System:** Architected a distributed edge AI system leveraging 5G networks and Multi-access Edge Computing for ultra-low latency facial recognition, deploying computer vision algorithms directly on edge servers for real-time identity matching.
 *   **Statistical Modeling of Cardiovascular Disease Risk:** Performed end-to-end analysis of 70,000 patient records validating BMI as a CVD predictor; engineered 10,000 iteration Bootstrap CIs and Permutation Tests (p<0.0001); built regression models with train/test validation, applying Asian-specific WHO BMI thresholds drawn from clinical training.
 
-## 🌐 Connect with Me
+## Connect with Me
 
 *   **Email:** pyaesone.perfect2014@gmail.com
 *   **LinkedIn:** [linkedin.com/in/pyaesonep](https://linkedin.com/in/pyaesonep)
