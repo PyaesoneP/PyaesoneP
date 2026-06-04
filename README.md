@@ -1,33 +1,44 @@
-# Hi there! I'm Pyae Sone
+# Hi, I'm Pyae Sone
 
-I'm a **Computer Science student** and **Trailblazers Scholar** at the **Singapore University of Technology and Design (SUTD)**. With hands-on **ML engineering skills** and a unique background of **5 years in medical training**, I specialize in building and deploying neural networks from scratch using technologies like **NumPy, FastAPI, Docker, and Google Cloud Run**. 
+**Computer Science & Design @ SUTD · Trailblazers Scholar · ML / DL**
 
-My experience spans applying machine learning to diverse fields such as **healthcare** (70K-patient cardiovascular study), **computer vision** (99.8% accuracy ASL interpreter), and **edge AI** (5G facial recognition). I am actively seeking **AI Engineer and SWE internship roles**.
+I sit at an unusual intersection: five years of medical training, a red-teaming and cybersecurity internship at LTA Singapore, and machine-learning engineering. Across all three, the question I keep coming back to is the same — not *"how accurate is the model?"* but *"can you actually trust it?"* That thread runs through everything I build, and it's why I'm drawn to AI for high-stakes domains like healthcare.
 
-## My Technical Expertise
+I'm currently looking for **AI Engineer and SWE internships**.
 
-| Category | Skills |
-| :------- | :----- |
-| **AI / ML** | PyTorch, TensorFlow, Keras, Scikit-Learn, NumPy, Pandas, HuggingFace, Computer Vision (OpenCV), Transfer Learning, CNNs, Statistical Modeling |
-| **Languages** | Python (Advanced), JavaScript, C/C++, PowerShell, SQL |
-| **MLOps & Cloud** | Docker, Kubernetes (k3s), Google Cloud Run, Vertex AI, GCP, FastAPI, MLOps, CI/CD |
-| **Tools & Platforms** | Google Cloud Platform, Azure, CrowdStrike Falcon, Microsoft Sentinel, Git/GitHub |
+## What I'm working on
 
-## What I'm Currently Exploring
+- **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD)** — actively building a containerized, multimodal medical-triage agent with adversarial safety guardrails (RAG + small LLM + computer vision). The backend scaffold is up; the ML pipeline is in progress.
+- **Going deeper on** system design, LLM security, and production MLOps.
 
-I am continuously expanding my knowledge in areas such as **System Design** and advanced AI/ML techniques, always eager to learn and apply new concepts.
+## Tech I work with
 
-## Featured Projects
+| Category | Tools |
+| --- | --- |
+| **AI / ML** | PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas, Hugging Face, OpenCV, CNNs, transfer learning, statistical modeling |
+| **MLOps & Cloud** | Docker, Kubernetes (k3s), Google Cloud Run, Vertex AI, GCP, FastAPI, CI/CD |
+| **Security** | Red teaming, prompt-injection defense, CrowdStrike Falcon, Microsoft Sentinel |
+| **Languages** | Python, JavaScript, C/C++, SQL, PowerShell |
+| **Tools** | Git/GitHub, Azure, Linux |
 
-Here are some of my key projects that demonstrate my capabilities:
+## Featured projects
 
-*   **Deep Neural Network from Scratch (NumPy & Cloud Run):** Implemented a 4-layer DNN using only Python & NumPy with manual backpropagation, achieving ~98% training accuracy. Deployed full-stack via FastAPI + Docker on Google Cloud Run with a monitoring dashboard tracking inference latency (<50ms avg) and data drift.
-*   **Real-Time ASL Image Classification System:** Benchmarked custom CNN architectures against transfer-learned MobileNetV2, achieving 99.8% test-set accuracy. Engineered a live OpenCV/MediaPipe inference pipeline extracting hand-gesture ROIs from webcam feeds with sub-100ms latency.
-*   **5G & AIoT Real-Time Facial Recognition System:** Architected a distributed edge AI system leveraging 5G networks and Multi-access Edge Computing for ultra-low latency facial recognition, deploying computer vision algorithms directly on edge servers for real-time identity matching.
-*   **Statistical Modeling of Cardiovascular Disease Risk:** Performed end-to-end analysis of 70,000 patient records validating BMI as a CVD predictor; engineered 10,000 iteration Bootstrap CIs and Permutation Tests (p<0.0001); built regression models with train/test validation, applying Asian-specific WHO BMI thresholds drawn from clinical training.
+Live on my profile, with code you can browse:
 
-## Connect with Me
+- **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD)** — *(in active development)* A research-grade medical-triage agent designed around safety: RAG over public clinical guidelines, a quantized Gemma-2B for CPU-only inference, an EfficientNet-B0 vision path for skin-lesion risk, and a security gateway that intercepts prompt-injection attempts before they reach the model. My attempt to turn the *"can you trust it?"* question into working code.
+- **[custom-nn](https://github.com/PyaesoneP/custom-nn)** — A deep neural network written from scratch in pure NumPy: manual forward/backpropagation, gradient descent, and ReLU/Sigmoid activations for binary image classification. No PyTorch, no TensorFlow — just the math.
+- **[neural-network-portfolio](https://github.com/PyaesoneP/neural-network-portfolio)** — An interactive 3D portfolio built with Three.js that renders my skills and projects as an animated neural network, with BFS path tracing. [Live demo →](https://pyaesonep.github.io/neural-network-portfolio)
 
-*   **Email:** pyaesone.perfect2014@gmail.com
-*   **LinkedIn:** [linkedin.com/in/pyaesonep](https://linkedin.com/in/pyaesonep)
-*   **GitHub Portfolio:** [github.com/pyaesonep](https://github.com/pyaesonep)
+## Also built — write-ups publishing soon
+
+Code and full write-ups are on their way to GitHub:
+
+- **Real-time ASL classifier** — Benchmarked custom CNNs against a transfer-learned MobileNetV2 to reach 99.8% test accuracy, with a live OpenCV/MediaPipe webcam pipeline running sub-100 ms inference.
+- **Cardiovascular disease risk modeling** — End-to-end statistical analysis of 70,000 patient records: bootstrap confidence intervals, permutation tests (p < 0.0001), and regression models using Asian-specific WHO BMI thresholds drawn from my clinical background.
+- **5G + AIoT facial recognition** — A distributed edge-AI system using 5G and multi-access edge computing for ultra-low-latency identity matching, with computer-vision models running directly on edge servers.
+
+## Let's connect
+
+- **Email:** pyaesone.perfect2014@gmail.com
+- **LinkedIn:** [linkedin.com/in/pyaesonep](https://linkedin.com/in/pyaesonep)
+- **Portfolio:** [pyaesonep.github.io/neural-network-portfolio](https://pyaesonep.github.io/neural-network-portfolio)
