@@ -12,7 +12,7 @@
 
 ### What I'm Building
 *   **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD):** A local-first ED triage console. It combines rules-based ATS 1–5 classification with MedGemma-1.5 4B, RAG over clinical guidelines, and parallel computer vision risk stratification. Designed for safety and privacy, all inference runs on-device and is protected by a custom prompt-injection security gateway. 
-*   **[custom-nn](https://github.com/PyaesoneP/custom-nn):** A deep neural network written from scratch in pure NumPy. Features manual forward/backpropagation, gradient descent, and custom activations. Fully containerized and deployed with a FastAPI backend and live Prometheus monitoring.
+*   **[custom-nn](https://github.com/PyaesoneP/custom-nn):** A convolutional neural network built from scratch in pure NumPy with no frameworks. Features manual forward/backpropagation through Conv2D, MaxPool, and Dense layers, Adam optimisation with decoupled weight decay, and custom activations. Fully containerized and deployed with a FastAPI backend and live monitoring dashboard.
 *   **[neural-network-portfolio](https://github.com/PyaesoneP/neural-network-portfolio):** An interactive 3D portfolio built with Three.js. Renders skills and career history as an animated neural network featuring real-time data flow and BFS path tracing.
 ---
 ### Tech Stack
