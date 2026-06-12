@@ -1,5 +1,6 @@
 # Hi, I'm Pyae Sone
 **Computer Science & Design @ SUTD | Trailblazers Scholar | ML / DL Engineer**
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-Interactive_3D-7c3aed?style=flat&logo=web)](https://pyaesonep.github.io/neural-network-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/pyaesonep)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=flat&logo=gmail)](mailto:pyaesone.perfect2014@gmail.com)
