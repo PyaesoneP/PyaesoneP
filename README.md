@@ -1,32 +1,42 @@
 # Hi, I'm Pyae Sone
-**Physician-turned-AI-Engineer | SUTD Trailblazers Scholar | Healthcare AI**
+
+**Physician-turned-AI Engineer · AI Engineer Intern @ Tiny Equations · SUTD Trailblazers Scholar**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Interactive_3D-7c3aed?style=flat&logo=web)](https://pyaesonep.github.io/neural-network-portfolio)
+[![Blog](https://img.shields.io/badge/Blog-dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white)](https://dev.to/pyaesonep)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/pyaesonep)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=flat&logo=gmail)](mailto:pyaesone.perfect2014@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=flat&logo=gmail)](mailto:pyaesone.perfect2014@gmail.com)
 
 ---
 
-*I spent five years in clinical medical training before transitioning to offensive security and machine learning. During my red-teaming internship at LTA Singapore, I engineered a 45% uplift in endpoint security compliance. Today, I build secure, production-ready AI systems for high-stakes domains, focusing on LLM security, local inference, and MLOps. My primary engineering focus is building systems that fail safely. I am currently seeking AI Engineering and SWE internships.*
+I spent five years in clinical medical training before moving into offensive security and machine learning. During a red-teaming internship at LTA Singapore, I raised endpoint security compliance from 44% to 89%. I'm now an AI Engineer Intern at **Tiny Equations**, working on computer vision for an education platform built to make quality learning support accessible to any student.
+
+My focus is AI for high-stakes domains that **fails safely**: LLM security, local and on-device inference, and rigorous evaluation. On the side, I run a free Burmese-language initiative teaching AI/ML, because access to this field shouldn't depend on where you start.
+
+*Open to AI/ML engineering internships for late 2027.*
 
 ---
 
-### What I'm Building
-*   **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD):** A local-first ED triage console. It combines rules-based ATS 1–5 classification with MedGemma-1.5 4B, RAG over clinical guidelines, and parallel computer vision risk stratification. Designed for safety and privacy, all inference runs on-device and is protected by a custom prompt-injection security gateway. 
-*   **[custom-nn](https://github.com/PyaesoneP/custom-nn):** A convolutional neural network built from scratch in pure NumPy with no frameworks. Features manual forward/backpropagation through Conv2D, MaxPool, and Dense layers, Adam optimisation with decoupled weight decay, and custom activations. Fully containerized and deployed with a FastAPI backend and live monitoring dashboard.
-*   **[neural-network-portfolio](https://github.com/PyaesoneP/neural-network-portfolio):** An interactive 3D portfolio built with Three.js. Renders skills and career history as an animated neural network featuring real-time data flow and BFS path tracing.
+### What I'm building
+
+* **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD)** is a local-first emergency-department triage console. A deterministic rules engine drives Australasian Triage Scale (ATS 1-5) classification, with a MedGemma-1.5 4B escalation layer, RAG over clinical guidelines, and parallel computer-vision risk stratification. All inference runs on-device behind a custom prompt-injection gateway. Hardened with 332 backend tests at 94% coverage, CI/CD, and Prometheus observability.
+* **[vlm-ocr-research](https://github.com/PyaesoneP/vlm-ocr-research)** benchmarks open-source OCR and vision-language models for on-device document understanding. I built the evaluation harness (CER/WER, layout IoU, reading order) and caught a dataset confound that was silently inflating accuracy, then re-ran everything on cropped handwriting for honest numbers.
+* **[custom-nn](https://github.com/PyaesoneP/custom-nn)** is a convolutional neural network built from scratch in pure NumPy, with no frameworks. Manual forward/backprop through Conv2D, MaxPool, and Dense layers, Adam with decoupled weight decay, and custom activations, including documented experiments that didn't work. Deployed full stack via FastAPI and Docker, with a live monitoring dashboard.
+* **[neural-network-portfolio](https://github.com/PyaesoneP/neural-network-portfolio)** is an interactive 3D portfolio in Three.js that renders my skills and career history as an animated neural network, with real-time data flow and BFS path tracing.
+
 ---
-### Tech Stack
+
+### Writing
+
+* **[Same weights, same prompt, different triage level](https://dev.to/pyaesonep/same-weights-same-prompt-different-triage-level-475i)** explains why a quantized model can return different outputs on different hardware, and why that's a problem for safety-critical AI. *(dev.to)*
+
+---
+
+### Tech stack
 
 | Category | Technologies |
 | :--- | :--- |
-| **AI / ML** | PyTorch, TensorFlow, Keras, Hugging Face, OpenCV, Scikit-learn, Pandas, NumPy |
-| **MLOps & Cloud** | Docker, Kubernetes (k3s), GCP, Google Cloud Run, Vertex AI, CI/CD, FastAPI |
+| **AI / ML** | PyTorch, TensorFlow, Keras, Hugging Face, RAG, LLMs, OpenCV, Scikit-learn, Pandas, NumPy |
+| **MLOps & Cloud** | Docker, Kubernetes (k3s), GCP, Cloud Run, Vertex AI, CI/CD, FastAPI |
 | **Security** | Red Teaming, Prompt-Injection Defense, CrowdStrike Falcon, Microsoft Sentinel |
 | **Languages** | Python, JavaScript, C/C++, SQL, PowerShell |
-
----
-### Upcoming Write-ups (Code Publishing Soon)
-*   **Real-time ASL Classifier:** Benchmarked custom CNN architectures against transfer-learned MobileNetV2 to achieve 99.8% test accuracy, with a live OpenCV/MediaPipe pipeline running sub-100 ms inference.
-*   **Cardiovascular Disease Risk Modeling:** End-to-end statistical analysis of 70,000 patient records utilizing bootstrap confidence intervals, permutation tests (p < 0.0001), and regression models incorporating Asian-specific WHO BMI thresholds.
-*   **5G + AIoT Facial Recognition:** Distributed edge-AI system using 5G and multi-access edge computing for ultra-low-latency identity matching.
