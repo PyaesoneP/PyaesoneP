@@ -9,34 +9,81 @@
 
 ---
 
-I spent five years in clinical medical training before moving into offensive security and machine learning. During a red-teaming internship at LTA Singapore, I raised endpoint security compliance from 44% to 89%. I'm now an AI Engineer Intern at **Tiny Equations**, working on computer vision for an education platform built to make quality learning support accessible to any student.
+I build and evaluate AI systems for high-stakes domains, particularly **healthcare and education**.
 
-My focus is AI for high-stakes domains that **fails safely**: LLM security, local and on-device inference, and rigorous evaluation. On the side, I run a free Burmese-language initiative teaching AI/ML, because access to this field shouldn't depend on where you start.
+My path into computing followed more than five years of medical education and clinical training at the University of Medicine 1, Yangon, including Final Part II postings in Obstetrics & Gynaecology and Paediatrics.
 
-*Open to AI/ML engineering internships for late 2027.*
+I later graduated from Singapore Polytechnic with a **Diploma in Computer Engineering, Diploma with Merit, and a 3.94/4.00 GPA**. During a cybersecurity internship at Singapore's Land Transport Authority, I worked on endpoint hardening, security monitoring, and adversarial testing, improving measured CIS compliance from **44% to 89%**.
 
----
+I am currently an **AI/ML Engineer Intern at Tiny Equations**, working on truthful handwriting recognition, OCR/VLM evaluation, educational grading systems, and backend ML pipelines. I will begin SUTD's Computer Science and Design programme in September 2026 as a **Trailblazers International Scholar**.
 
-### What I'm building
+## Research interests
 
-* **[Aegis-MD](https://github.com/PyaesoneP/Aegis-MD)** is a local-first emergency-department triage console. A deterministic rules engine drives Australasian Triage Scale (ATS 1-5) classification, with a MedGemma-1.5 4B escalation layer, RAG over clinical guidelines, and parallel computer-vision risk stratification. All inference runs on-device behind a custom prompt-injection gateway. Hardened with 332 backend tests at 94% coverage, CI/CD, and Prometheus observability.
-* **[vlm-ocr-research](https://github.com/PyaesoneP/vlm-ocr-research)** benchmarks open-source OCR and vision-language models for on-device document understanding. I built the evaluation harness (CER/WER, layout IoU, reading order) and caught a dataset confound that was silently inflating accuracy, then re-ran everything on cropped handwriting for honest numbers.
-* **[custom-nn](https://github.com/PyaesoneP/custom-nn)** is a convolutional neural network built from scratch in pure NumPy, with no frameworks. Manual forward/backprop through Conv2D, MaxPool, and Dense layers, Adam with decoupled weight decay, and custom activations, including documented experiments that didn't work. Deployed full stack via FastAPI and Docker, with a live monitoring dashboard.
-* **[neural-network-portfolio](https://github.com/PyaesoneP/neural-network-portfolio)** is an interactive 3D portfolio in Three.js that renders my skills and career history as an animated neural network, with real-time data flow and BFS path tracing.
+- Trustworthy multimodal AI and rigorous model evaluation
+- OCR, document intelligence, and evidence-preserving AI
+- Medical and educational AI
+- Robust computer vision and vision-language models
+- Local and privacy-conscious inference
+- AI security, auditability, and safe failure modes
 
----
+## Selected work
 
-### Writing
+### [VLM-OCR for Handwritten Essay Feedback](https://github.com/PyaesoneP/vlm-ocr-research)
 
-* **[Same weights, same prompt, different triage level](https://dev.to/pyaesonep/same-weights-same-prompt-different-triage-level-475i)** explains why a quantized model can return different outputs on different hardware, and why that's a problem for safety-critical AI. *(dev.to)*
+Empirical evaluation of 14 OCR and vision-language models for handwritten document understanding.
 
----
+- Built evaluation pipelines for CER, WER, bounding-box IoU, and reading order
+- Detected a dataset confound that allowed models to read printed text instead of handwriting
+- Rebuilt the benchmark around cropped handwriting and corrected multiple metric bugs
+- Investigating how fluent models silently normalise student errors before grading
 
-### Tech stack
+### [Aegis-MD](https://github.com/PyaesoneP/Aegis-MD)
 
-| Category | Technologies |
-| :--- | :--- |
-| **AI / ML** | PyTorch, TensorFlow, Keras, Hugging Face, RAG, LLMs, OpenCV, Scikit-learn, Pandas, NumPy |
-| **MLOps & Cloud** | Docker, Kubernetes (k3s), GCP, Cloud Run, Vertex AI, CI/CD, FastAPI |
-| **Security** | Red Teaming, Prompt-Injection Defense, CrowdStrike Falcon, Microsoft Sentinel |
-| **Languages** | Python, JavaScript, C/C++, SQL, PowerShell |
+A local-first emergency-department triage research prototype combining deterministic safety rules, MedGemma, RAG, computer vision, and adversarial safeguards.
+
+- Designed around local inference and privacy-conscious deployment
+- Public cloud demonstration available using non-sensitive inputs
+- 332 backend tests with 94% coverage
+- Includes CI/CD, Docker deployment, monitoring, and prompt-injection defences
+- Research prototype only; not clinically validated
+
+### [Convolutional Neural Network from Scratch](https://github.com/PyaesoneP/custom-nn)
+
+A CNN implemented in pure NumPy without deep-learning frameworks.
+
+- Manual forward and backward propagation through Conv2D, MaxPool, and Dense layers
+- Vectorised convolution using `im2col` and `col2im`
+- Adam optimisation, regularisation experiments, FastAPI deployment, and monitoring
+- Documents both successful approaches and experiments that failed
+
+### [Interactive Neural-Network Portfolio](https://github.com/PyaesoneP/neural-network-portfolio)
+
+A Three.js portfolio that represents my projects, skills, and career progression as an animated neural network with real-time data flow and BFS path tracing.
+
+## Writing
+
+### [Same weights, same prompt, different triage level](https://dev.to/pyaesonep/same-weights-same-prompt-different-triage-level-475i)
+
+An engineering investigation into why quantised models can produce different outputs across hardware and what this means for reproducibility in safety-sensitive AI.
+
+## Technical toolkit
+
+**ML and research:**  
+`Python` · `PyTorch` · `TensorFlow` · `NumPy` · `Hugging Face` · `OpenCV` · `Scikit-learn`
+
+**ML systems:**  
+`FastAPI` · `Docker` · `Ollama` · `llama.cpp` · `RAG` · `Prometheus` · `CI/CD`
+
+**Cloud and infrastructure:**  
+`Google Cloud` · `Cloud Run` · `Vertex AI` · `Linux` · `Kubernetes fundamentals`
+
+**Security:**  
+`Endpoint hardening` · `CrowdStrike Falcon` · `Microsoft Sentinel` · `Red/Purple Teaming` · `AI Security`
+
+## Currently
+
+- Building truthful OCR and multimodal evaluation pipelines
+- Strengthening algorithms, mathematics, PyTorch, and ML systems foundations
+- Preparing to begin SUTD Computer Science and Design in September 2026
+- Open to **UROP and undergraduate research opportunities** in trustworthy AI, computer vision, medical AI, and educational AI
+- Targeting AI/ML and software-engineering internships for late 2027
