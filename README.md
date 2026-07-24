@@ -56,6 +56,15 @@ A CNN implemented in pure NumPy without deep-learning frameworks.
 - Adam optimisation, regularisation experiments, FastAPI deployment, and monitoring
 - Documents both successful approaches and experiments that failed
 
+### [Real-time ASL Fingerspelling Recognition](https://github.com/PyaesoneP/ASL-recognition-with-PyTorch)
+
+A webcam-to-text ASL fingerspelling recogniser: browser-side MediaPipe hand tracking, a MobileNetV2 classifier on ONNX Runtime, and a live sentence transcript streamed over WebSocket.
+
+- Diagnosed and fixed a broken stratified split that had left several of the 29 classes entirely untrained, then rebuilt training on MediaPipe hand crops so the model sees the same framing at training and inference time
+- Hardened the public FastAPI service: per-connection sessions, CORS lockdown, and image payload-size / decompression-bomb guards
+- Ships as a single container (FastAPI serving the frontend) with a two-container docker-compose alternative; 175 automated tests
+- Honest evaluation: the 99.8% held-out accuracy is within-distribution; the repo documents the single-environment dataset's real-world generalisation gap rather than overstating the number
+
 ### [Interactive Neural-Network Portfolio](https://github.com/PyaesoneP/neural-network-portfolio)
 
 A Three.js portfolio that represents my projects, skills, and career progression as an animated neural network with real-time data flow and BFS path tracing.
